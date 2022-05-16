@@ -1,0 +1,145 @@
+.blog {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7567d0;
+}
+
+.blogForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3 );
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+
+.blogForm h2 {
+    color: #101010;
+    font-size: 30px;
+    margin-bottom: 2.5rem;
+}
+
+.blogForm label {
+    text-align: start;
+    position: relative;
+    left: 0.5rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.blogForm input {
+    background-color: #FFEBCD;
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    width: 30rem;
+    height: 2.5rem;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.blogForm textarea {
+    background-color: #FFEBCD;
+    margin: 0.5rem;
+    margin-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 8rem;
+    width: 30rem;
+    height: 2.5rem;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 0.5px solid
+}
+
+
+.buttons button {
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons #submit {
+    background-color: #90EE90;
+    position: relative;
+    right: 3rem;
+}
+
+.buttons #cancel {
+    background-color: #F08080;
+    position: relative;
+    left: 3rem;
+}
+
+.buttons #submit:hover {
+    border: 2px solid;
+}
+
+.buttons #cancel:hover {
+    border: 2px solid;
+}
+
+.blogForm #errorMsg {
+    background-color: #FFC0CB;
+    color: red;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+    border: 0.5px solid;
+}
+
+.blogForm p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6A5ACD;
+}
+
+.blogForm p a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 585px) {
+    .blogForm {
+        width: 80%;
+    }
+
+    .blogForm input {
+        width: 93%;
+        height: 2.5rem;
+    }
+
+    .blogForm textarea {
+        width: 93%;
+        height: 2.5rem;
+    }
+
+    .buttons button {
+        width: 96%;
+        height: 4rem;
+    }
+
+    .buttons #submit {
+        right: 0rem;
+    }
+    
+    .buttons #cancel {
+        left: 0rem;
+    }
+  }

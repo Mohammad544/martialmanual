@@ -1,0 +1,333 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #101010;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+  padding-top: 10px;
+}
+
+.navbar .leftSide img {
+  width: 200px;
+}
+
+.navbar .rightSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .navbarLinks {
+  color: white;
+  text-decoration: none;
+  /* margin: 18px; */
+  margin: 5px;
+  padding: 1.4rem 1rem;
+}
+
+.hiddenSignInBtn {
+  margin-left: 1rem;
+  background-color:#101010;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hiddenSignInBtn:hover {
+  color: #101010;
+  background-color: white;
+  border: none;
+}
+
+.hiddenSignOutBtn {
+  margin-left: 1rem;
+  background-color:#101010;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hiddenSignOutBtn:hover {
+  color: #101010;
+  background-color: white;
+  border: none;
+}
+
+.visibleSignInBtn {
+  margin-left: 1rem;
+  background-color:#101010;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.visibleSignInBtn:hover {
+  color: #101010;
+  background-color: white;
+  border: none;
+}
+
+.visibleSignOutBtn {
+  margin-left: 1rem;
+  background-color:#101010;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.visibleSignOutBtn:hover {
+  color: #101010;
+  background-color: white;
+  border: none;
+}
+
+.reorder {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar .rightSide svg {
+  font-size: 40px;
+}
+
+.navbar #open .navbarLinks:hover {
+  color: #ff8c00;
+}
+
+.navbar #close .navbarLinks:hover {
+  background-color: #404040;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+
+.navbar #open .hiddenLinks {
+  display: inherit;
+  padding-bottom: 1.2rem;
+}
+
+.navbar #open .hiddenLinks .navbarLinks{
+  padding: 0rem;
+}
+
+.navbar #close img {
+  display: inherit;
+}
+
+@media only screen and (max-width: 1500px) {
+  .navbar .rightSide {
+    flex: 60%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .navbar .rightSide {
+    flex: 70%;
+  }
+}
+
+@media only screen and (max-width: 1318px) {
+  .navbar .rightSide {
+    flex: 80%;
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  .navbar .rightSide {
+    flex: 90%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar .rightSide {
+    flex: 100%;
+  }
+}
+
+@media only screen and (max-width: 1174px) { 
+  .navbar .leftSide {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .navbar .rightSide {
+    flex: 120%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar .rightSide {
+    flex: 140%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar .rightSide {
+    flex: 180%;
+  }
+}
+
+@media only screen and (max-width: 904px) {
+  .visibleSignOutBtn {
+    margin-left: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar .rightSide .navbarLinks {
+    font-size: 14px;
+    padding: 0.2rem;
+  }
+
+  .navbar .leftSide {
+    padding-left: 50px;
+    display: inherit;
+  }
+
+  .visibleSignOutBtn {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar .leftSide {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .navbar .navbarLinks {
+    margin: 4px;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  .hiddenLinks .navbarLinks {
+    display: none;
+  }
+  
+  .hiddenSignInBtn{
+    display: none;
+  }
+
+  .hiddenSignOutBtn{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar .rightSide .navbarLinks {
+    display: none;
+  }
+
+  .navbar .rightSide {
+    justify-content: flex-end;
+    padding-right: 30px;
+  }
+
+  .reorder {
+    display: inherit;
+  }
+
+  .hiddenSignInBtn {
+    margin-left: 2rem;
+  }
+
+  .hiddenSignOutBtn{
+    margin-left: 2rem;
+  }
+
+  .hiddenLinks {
+    font-size: 14px;
+  }
+
+  .hiddenLinks .navbarLinks {
+    margin-left: 2rem;
+    margin-top: 22px;
+  }
+
+  .navbar .leftSide img {
+    display: none;
+  }
+
+  .visibleSignInBtn {
+    display: none;
+  }
+
+  .visibleSignOutBtn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .hiddenSignInBtn {
+    margin-left: 1rem;
+  }
+
+  .hiddenSignOutBtn {
+    margin-left: 1rem;
+  }
+  
+  .hiddenLinks .navbarLinks {
+    margin-left: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .hiddenLinks .navbarLinks {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 558px) {
+  .hiddenLinks .navbarLinks {
+    margin-left: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .hiddenLinks .navbarLinks {
+    font-size: 12px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .hiddenSignInBtn {
+    margin-left: 0.5rem;
+  }
+
+  .hiddenSignOutBtn {
+    margin-left: 0.5rem;
+  }
+}

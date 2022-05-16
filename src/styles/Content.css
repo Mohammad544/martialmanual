@@ -1,0 +1,1665 @@
+.content {
+    background-color: #282828;
+    max-width: 2000px;
+}
+
+.content h1 {
+    padding-top: 10px;
+    font-size: 60px;
+    font-family: "Lucida Sans";
+    font-weight: bold;
+    color: #E8E8E8;
+}
+
+.contentArea {
+    box-shadow: 0 6px 25px rgba(240, 240, 240, 0.2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display: grid;
+    border-radius: 15px;
+    background-color: #E8E8E8;
+}
+
+.contentSubArea1 {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.17);
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display: grid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.contentSubArea1 h2 {
+    padding-right: 70%;
+    font-size: 30px;
+}
+
+.bulletPoint1{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 10%;
+}
+
+.bulletPoint1 h3 {
+    padding-left: 1.5rem;
+}
+
+.bulletPoint2{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 10%;
+}
+
+.bulletPoint2 h3 {
+    padding-left: 1.5rem;
+}
+
+.bulletPoint3{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 10%;
+}
+
+.bulletPoint3 h3 {
+    padding-left: 1.5rem;
+}
+
+.contentSubArea1 video {
+    width: 40rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.video1 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.stretchesList {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    text-align: start;
+    background-color: beige;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: 0.5px solid;
+    box-shadow: 0px 0px 2.5px;
+}
+
+.bulletPoint4 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 10%;
+}
+
+.bulletPoint4 h3 {
+    padding-left: 1.5rem;
+}
+
+/* css for technique 1 */
+.contentSubArea2 {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.17);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display: grid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.contentSubArea2 h2 {
+    padding-right: 60%;
+    font-size: 30px;
+}
+
+.resultingTechnique1 {
+    display: flex;
+}
+
+.resultingTechnique1 img {
+    width: 40%;
+    height: 35vh;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+}
+
+.resultingTechnique1 ul {
+    padding-top: 28px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: start;
+    font-size: 14pt;
+}
+
+.resultingTechnique1 li {
+    padding: 0.5rem;
+}
+
+.contentSubArea2 h3 {
+    padding-right: 65%;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+.contentSubArea2 .sequence img {
+    width: 30%;
+    height: 25vh;
+    padding-top: 0.5rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    transition: 150ms ease-in;
+}
+
+.contentSubArea2 .sequence img:hover {
+    transform: scale(1.1);
+}
+
+.contentSubArea2 .sequence p {
+    margin-top: 5rem;
+    margin-left: 6.5rem;
+    margin-right: 10rem;
+    text-align: start;
+    font-size: 16pt;
+}
+
+.contentSubArea2 .sequence1 {
+    display: flex;
+}
+
+.contentSubArea2 .sequence2 {
+    display: flex;
+}
+
+.contentSubArea2 .sequence3 {
+    display: flex;
+}
+
+.contentSubArea2 .sequence4 {
+    display: flex;
+}
+
+.video-js {
+    display: block;
+    width: 850px;
+    height: 400px;
+    margin-top: 0.5rem;
+    margin-left: 9rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* css for technique 2 */
+.contentSubArea3 {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.17);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display: grid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.contentSubArea3 h2 {
+    padding-right: 60%;
+    font-size: 30px;
+}
+
+.resultingTechnique2 {
+    display: inline;
+}
+
+.resultingTechnique2 img {
+    width: 70%;
+    height: 60vh;
+    padding-top: 2rem;
+    padding-right: 9.5rem;
+}
+
+.resultingTechnique2 ul {
+    padding-top: 28px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-align: start;
+    font-size: 14pt;
+}
+
+.resultingTechnique2 li {
+    padding: 0.5rem;
+}
+
+.contentSubArea3 h3 {
+    padding-right: 65%;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+.contentSubArea3 .sequence img {
+    width: 30%;
+    height: 25vh;
+    padding-top: 0.5rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    transition: 150ms ease-in;
+}
+
+.contentSubArea3 .sequence img:hover {
+    transform: scale(1.1);
+}
+
+.contentSubArea3 .sequence p {
+    margin-top: 5rem;
+    margin-left: 6.5rem;
+    margin-right: 10rem;
+    text-align: start;
+    font-size: 16pt;
+}
+
+.contentSubArea3 .sequence1 {
+    display: flex;
+}
+
+.contentSubArea3 .sequence1 p {
+    margin-top: 3rem;
+}
+
+.contentSubArea3 .sequence2 {
+    display: flex;
+}
+
+.contentSubArea3 .sequence3 {
+    display: flex;
+}
+
+.contentSubArea3 .sequence4 {
+    display: flex;
+}
+
+/* css for technique 3 */
+.contentSubArea4 {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.17);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display: grid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.contentSubArea4 h2 {
+    padding-right: 60%;
+    font-size: 30px;
+}
+
+.resultingTechnique3 {
+    display: inline;
+}
+
+.resultingTechnique3 img {
+    width: 70%;
+    height: 60vh;
+    padding-top: 2rem;
+    padding-right: 9.5rem;
+}
+
+.resultingTechnique3 ul {
+    padding-top: 28px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-align: start;
+    font-size: 14pt;
+}
+
+.resultingTechnique3 li {
+    padding: 0.5rem;
+}
+
+.contentSubArea4 h3 {
+    padding-right: 65%;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+.contentSubArea4 .sequence img {
+    width: 30%;
+    height: 25vh;
+    padding-top: 0.5rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    transition: 150ms ease-in;
+}
+
+.contentSubArea4 .sequence img:hover {
+    transform: scale(1.1);
+}
+
+.contentSubArea4 .sequence p {
+    margin-top: 5rem;
+    margin-left: 6.5rem;
+    margin-right: 10rem;
+    text-align: start;
+    font-size: 16pt;
+} 
+
+.contentSubArea4 .sequence1 {
+    display: flex;
+}
+
+.contentSubArea4 .sequence2 {
+    display: flex;
+}
+
+.contentSubArea4 .sequence3 {
+    display: flex;
+}
+
+.contentSubArea4 .sequence4 {
+    display: flex;
+}
+
+.contentSubArea4 .sequence5 {
+    display: flex;
+}
+
+/* css for technique 4 */
+.contentSubArea5 {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.17);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display: grid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.contentSubArea5 h2 {
+    padding-right: 60%;
+    font-size: 30px;
+}
+
+.resultingTechnique4 {
+    display: flex;
+}
+
+.resultingTechnique4 img {
+    width: 40%;
+    height: 35vh;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+}
+
+.resultingTechnique4 ul {
+    padding-top: 28px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: start;
+    font-size: 14pt;
+}
+
+.resultingTechnique4 li {
+    padding: 0.5rem;
+}
+
+.contentSubArea5 h3 {
+    padding-right: 65%;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+.contentSubArea5 .sequence img {
+    width: 30%;
+    height: 25vh;
+    padding-top: 0.5rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    transition: 150ms ease-in;
+}
+
+.contentSubArea5 .sequence img:hover {
+    transform: scale(1.1);
+}
+
+.contentSubArea5 .sequence p {
+    margin-top: 5rem;
+    margin-left: 6.5rem;
+    margin-right: 10rem;
+    text-align: start;
+    font-size: 16pt;
+}
+
+.contentSubArea5 .sequence1 {
+    display: flex;
+}
+
+.contentSubArea5 .sequence2 {
+    display: flex;
+}
+
+.contentSubArea5 .sequence3 {
+    display: flex;
+}
+
+.contentSubArea5 .sequence4 {
+    display: flex;
+}
+
+.contentSubArea5 .sequence5 {
+    display: flex;
+}
+
+.contentSubArea5 .sequence5 p{
+    margin-top: 3rem;
+}
+
+.contentSubArea5 .sequence6 {
+    display: flex;
+}
+
+.contentSubArea5 .sequence7 {
+    display: flex;
+}
+
+/* css for technique 5 */
+.contentSubArea6 {
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.17);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display: grid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.contentSubArea6 h2 {
+    padding-right: 60%;
+    font-size: 30px;
+}
+
+.resultingTechnique5 {
+    display: flex;
+}
+
+.resultingTechnique5 img {
+    width: 40%;
+    height: 35vh;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+}
+
+.resultingTechnique5 ul {
+    padding-top: 28px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: start;
+    font-size: 14pt;
+}
+
+.resultingTechnique5 li {
+    padding: 0.5rem;
+}
+
+.contentSubArea6 h3 {
+    padding-right: 65%;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+.contentSubArea6 .sequence img {
+    width: 30%;
+    height: 25vh;
+    padding-top: 0.5rem;
+    padding-left: 8rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    transition: 150ms ease-in;
+}
+
+.contentSubArea6 .sequence img:hover {
+    transform: scale(1.1);
+}
+
+.contentSubArea6 .sequence p {
+    margin-top: 5rem;
+    margin-left: 6.5rem;
+    margin-right: 10rem;
+    text-align: start;
+    font-size: 16pt;
+}
+
+.contentSubArea6 .sequence1 {
+    display: flex;
+}
+
+.contentSubArea6 .sequence2 {
+    display: flex;
+}
+
+.contentSubArea6 .sequence3 {
+    display: flex;
+}
+
+.contentSubArea6 .sequence4 {
+    display: flex;
+}
+
+.content #footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+/* media queries */
+@media only screen and (max-width: 1476px) {
+    /* technique 1 */
+    .contentSubArea2 h2 {
+        padding-right: 0%;
+    }
+
+    .resultingTechnique1 {
+        display: inline;
+    }
+
+    .resultingTechnique1 img {
+        width: 86%;
+        height: 65vh;
+        padding-left: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .resultingTechnique1 ul {
+        padding-top: 20px;
+    }
+
+    .contentSubArea2 .sequence img {
+        width: 60%;
+        height: 45vh;
+        padding-left: 0rem;
+        cursor: auto;
+        transition: none
+    }
+
+    .contentSubArea2 .sequence img:hover {
+        transform: none;
+    }
+    
+    .contentSubArea2 .sequence p {
+        margin-top: 0.5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        text-align: center;
+    }
+
+    .contentSubArea2 .sequence1 {
+        display: block;
+    }
+
+    .contentSubArea2 .sequence1 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea2 .sequence1 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea2 .sequence2 {
+        display: block;
+    }
+
+    .contentSubArea2 .sequence2 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea2 .sequence2 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea2 .sequence3 {
+        display: block;
+    }
+
+    .contentSubArea2 .sequence3 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea2 .sequence3 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea2 .sequence4 {
+        display: block;
+    }
+
+    .contentSubArea2 .sequence4 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea2 .sequence4 p {
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    /* technique 2 */
+    .contentSubArea3 h2 {
+        padding-right: 0%;
+    }
+
+    .resultingTechnique2 {
+        display: inline;
+    }
+
+    .resultingTechnique2 img {
+        width: 86%;
+        height: 65vh;
+        padding-right: 0rem;
+    }
+
+    .resultingTechnique2 ul {
+        padding-top: 20px;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .contentSubArea3 .sequence img {
+        width: 60%;
+        height: 45vh;
+        padding-left: 0rem;
+        cursor: auto;
+        transition: none
+    }
+
+    .contentSubArea3 .sequence img:hover {
+        transform: none;
+    }
+    
+    .contentSubArea3 .sequence p {
+        margin-top: 0.5rem;
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+
+    .contentSubArea3 .sequence1 {
+        display: block;
+    }
+
+    .contentSubArea3 .sequence1 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea3 .sequence1 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea3 .sequence2 {
+        display: block;
+    }
+
+    .contentSubArea3 .sequence2 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea3 .sequence2 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea3 .sequence3 {
+        display: block;
+    }
+
+    .contentSubArea3 .sequence3 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea3 .sequence3 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea3 .sequence4 {
+        display: block;
+    }
+
+    .contentSubArea3 .sequence4 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea3 .sequence4 p {
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    /* technique 3 */
+    .contentSubArea4 h2 {
+        padding-right: 0%;
+    }
+
+    .resultingTechnique3 {
+        display: inline;
+    }
+
+    .resultingTechnique3 img {
+        width: 86%;
+        height: 65vh;
+        padding-right: 0rem;
+    }
+
+    .resultingTechnique3 ul {
+        padding-top: 20px;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .contentSubArea4 .sequence img {
+        width: 60%;
+        height: 45vh;
+        padding-left: 0rem;
+        cursor: auto;
+        transition: none
+    }
+
+    .contentSubArea4 .sequence img:hover {
+        transform: none;
+    }
+    
+    .contentSubArea4 .sequence p {
+        margin-top: 0.5rem;
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+
+    .contentSubArea4 .sequence1 {
+        display: block;
+    }
+
+    .contentSubArea4 .sequence1 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea4 .sequence1 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea4 .sequence2 {
+        display: block;
+    }
+
+    .contentSubArea4 .sequence2 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea4 .sequence2 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea4 .sequence3 {
+        display: block;
+    }
+
+    .contentSubArea4 .sequence3 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea4 .sequence3 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea4 .sequence4 {
+        display: block;
+    }
+
+    .contentSubArea4 .sequence4 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea4 .sequence4 p {
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea4 .sequence5 {
+        display: block;
+    }
+
+    .contentSubArea4 .sequence5 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea4 .sequence5 p {
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    /* technique 4 */
+    .contentSubArea5 h2 {
+        padding-right: 0%;
+    }
+
+    .resultingTechnique4 {
+        display: inline;
+    }
+
+    .resultingTechnique4 img {
+        width: 86%;
+        height: 65vh;
+        padding-left: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .resultingTechnique4 ul {
+        padding-top: 20px;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .contentSubArea5 .sequence img {
+        width: 60%;
+        height: 45vh;
+        padding-left: 0rem;
+        cursor: auto;
+        transition: none
+    }
+
+    .contentSubArea5 .sequence img:hover {
+        transform: none;
+    }
+    
+    .contentSubArea5 .sequence p {
+        margin-top: 0.5rem;
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+
+    .contentSubArea5 .sequence1 {
+        display: block;
+    }
+
+    .contentSubArea5 .sequence1 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea5 .sequence1 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea5 .sequence2 {
+        display: block;
+    }
+
+    .contentSubArea5 .sequence2 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea5 .sequence2 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea5 .sequence3 {
+        display: block;
+    }
+
+    .contentSubArea5 .sequence3 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea5 .sequence3 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea5 .sequence4 {
+        display: block;
+    }
+
+    .contentSubArea5 .sequence4 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea5 .sequence4 p {
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea5 .sequence5 {
+        display: block;
+    }
+
+    .contentSubArea5 .sequence5 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea5 .sequence5 p {
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea5 .sequence6 {
+        display: block;
+    }
+
+    .contentSubArea5 .sequence6 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea5 .sequence6 p {
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea5 .sequence7 {
+        display: block;
+    }
+
+    .contentSubArea5 .sequence7 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea5 .sequence7 p {
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+    }
+
+    /* technique 5 */
+    .contentSubArea6 h2 {
+        padding-right: 0%;
+    }
+
+    .resultingTechnique5 {
+        display: inline;
+    }
+
+    .resultingTechnique5 img {
+        width: 86%;
+        height: 65vh;
+        padding-left: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .resultingTechnique5 ul {
+        padding-top: 20px;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .contentSubArea6 .sequence img {
+        width: 60%;
+        height: 45vh;
+        padding-left: 0rem;
+        cursor: auto;
+        transition: none
+    }
+
+    .contentSubArea6 .sequence img:hover {
+        transform: none;
+    }
+    
+    .contentSubArea6 .sequence p {
+        margin-top: 0.5rem;
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+
+    .contentSubArea6 .sequence1 {
+        display: block;
+    }
+
+    .contentSubArea6 .sequence1 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea6 .sequence1 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea6 .sequence2 {
+        display: block;
+    }
+
+    .contentSubArea6 .sequence2 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea6 .sequence2 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea6 .sequence3 {
+        display: block;
+    }
+
+    .contentSubArea6 .sequence3 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea6 .sequence3 p {
+        margin-top: 0rem;
+        padding-bottom: 3rem;
+    }
+
+    .contentSubArea6 .sequence4 {
+        display: block;
+    }
+
+    .contentSubArea6 .sequence4 img {
+        padding-bottom: 1rem;
+    }
+
+    .contentSubArea6 .sequence4 p {
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .stretchesList {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    .stretchesList {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .contentSubArea1 video {
+        width: 26rem;
+    }
+}
+
+@media only screen and (max-width: 1264px) {
+    .video-js {
+        margin-left: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .bulletPoints {
+        font-size: 14px;
+    }
+
+    .resultingTechnique1 img {
+        height: 55vh;
+    }
+
+    .contentSubArea2 .sequence p {
+        margin-left: 13rem;
+        margin-right: 13rem;
+        text-align: start;
+    }
+
+    .resultingTechnique2 img {
+        height: 55vh;
+    }
+
+    .resultingTechnique3 img {
+        height: 55vh;
+    }
+
+    .resultingTechnique4 img {
+        height: 55vh;
+    }
+
+    .resultingTechnique5 img {
+        height: 55vh;
+    }
+}
+
+@media only screen and (max-width: 1174px) {
+    .contentSubArea1 h2{
+        padding-right: 0%;
+        margin-left: 6rem;
+        position: relative;
+        right: 4rem;
+        font-size: 30px;
+    }
+
+    .resultingTechnique1 ul {
+        margin-left: 2rem;
+    }
+
+    .contentSubArea2 h3 {
+        padding-right: 60%;
+    }
+
+    .resultingTechnique2 ul {
+        margin-left: 2rem;
+    }
+
+    .contentSubArea3 h3 {
+        padding-right: 60%;
+    }
+
+    .resultingTechnique3 ul {
+        margin-left: 2rem;
+    }
+
+    .contentSubArea4 h3 {
+        padding-right: 60%;
+    }
+
+    .resultingTechnique4 ul {
+        margin-left: 2rem;
+    }
+
+    .contentSubArea5 h3 {
+        padding-right: 60%;
+    }
+
+    .resultingTechnique5 ul {
+        margin-left: 2rem;
+    }
+
+    .contentSubArea6 h3 {
+        padding-right: 60%;
+    }
+
+    .video-js {
+        width: 750px;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .bulletPoints {
+        font-size: 12px;
+    }
+
+    .contentSubArea2 .sequence img {
+        height: 40vh;
+    }
+
+    .contentSubArea3 .sequence img {
+        height: 40vh;
+    }
+
+    .contentSubArea4 .sequence img {
+        height: 40vh;
+    }
+
+    .contentSubArea5 .sequence img {
+        height: 40vh;
+    }
+
+    .contentSubArea6 .sequence img {
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .video-js {
+        width: 650px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .stretchesList {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .bulletPoints {
+        font-size: 11px;
+    }
+    
+    .contentSubArea2 .sequence img {
+        height: 35vh;
+    }
+
+    .contentSubArea2 .sequence p {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .contentSubArea3 .sequence img {
+        height: 35vh;
+    }
+
+    .contentSubArea3 .sequence p {
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+
+    .contentSubArea4 .sequence img {
+        height: 35vh;
+    }
+
+    .contentSubArea4 .sequence p {
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+
+    .contentSubArea5 .sequence img {
+        height: 35vh;
+    }
+
+    .contentSubArea5 .sequence p {
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+
+    .contentSubArea6 .sequence img {
+        height: 35vh;
+    }
+
+    .contentSubArea6 .sequence p {
+        margin-left: 9rem;
+        margin-right: 9rem;
+    }
+}
+
+@media only screen and (max-width: 934px) {
+    .video-js {
+        width: 510px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    .bulletPoints {
+        font-size: 10px;
+    }
+
+    .resultingTechnique1 img {
+        height: 50vh;
+    }
+
+    .contentSubArea2 h3 {
+        padding-right: 0%;
+    }
+
+    .resultingTechnique2 img {
+        height: 50vh;
+    }
+
+    .contentSubArea3 h3 {
+        padding-right: 0%;
+    }
+
+    .resultingTechnique3 img {
+        height: 50vh;
+    }
+
+    .contentSubArea4 h3 {
+        padding-right: 0%;
+    }
+
+    .resultingTechnique4 img {
+        height: 50vh;
+    }
+
+    .contentSubArea5 h3 {
+        padding-right: 0%;
+    }
+
+    .resultingTechnique5 img {
+        height: 50vh;
+    }
+
+    .contentSubArea6 h3 {
+        padding-right: 0%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .stretchesList {
+        margin-left: 10rem;
+    }
+
+    .contentSubArea1 h2{
+        margin-left: 12rem;
+    }
+
+    .bulletPoints {
+        text-align: start;
+    }
+
+    .bulletPoint1 {
+        margin-left: 0%;
+    }
+
+    .bulletPoint2 {
+        margin-left: 0%;
+    }
+
+    .bulletPoint3 {
+        margin-left: 0%;
+    }
+
+    .bulletPoint4 {
+        margin-left: 0%;
+    }
+
+    .video1 {
+        padding-left: 5rem;
+    }
+
+    .resultingTechnique1 img {
+        height: 45vh;
+    }
+
+    .contentSubArea2 .sequence img {
+        height: 30vh;
+        cursor: pointer;
+        transition: 150ms ease-in;
+    }
+
+    .contentSubArea2 .sequence img:hover {
+        transform: scale(1.1);
+    }
+
+    .resultingTechnique2 img {
+        height: 45vh;
+    }
+
+    .contentSubArea3 .sequence img {
+        height: 30vh;
+        cursor: pointer;
+        transition: 150ms ease-in;
+    }
+
+    .contentSubArea3 .sequence img:hover {
+        transform: scale(1.1);
+    }
+
+    .resultingTechnique3 img {
+        height: 45vh;
+    }
+
+    .contentSubArea4 .sequence img {
+        height: 30vh;
+        cursor: pointer;
+        transition: 150ms ease-in;
+    }
+
+    .contentSubArea4 .sequence img:hover {
+        transform: scale(1.1);
+    }
+
+    .resultingTechnique4 img {
+        height: 45vh;
+    }
+
+    .contentSubArea5 .sequence img {
+        height: 30vh;
+        cursor: pointer;
+        transition: 150ms ease-in;
+    }
+
+    .contentSubArea5 .sequence img:hover {
+        transform: scale(1.1);
+    }
+
+    .resultingTechnique5 img {
+        height: 45vh;
+    }
+
+    .contentSubArea6 .sequence img {
+        height: 30vh;
+        cursor: pointer;
+        transition: 150ms ease-in;
+    }
+
+    .contentSubArea6 .sequence img:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .video-js {
+        width: 410px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .video1 {
+        padding-left: 4rem;
+    }
+
+    .resultingTechnique1 img {
+        height: 40vh;
+    }
+
+    .contentSubArea2 .sequence img {
+        height: 25vh;
+    }
+
+    .resultingTechnique2 img {
+        height: 40vh;
+    }
+
+    .contentSubArea3 .sequence img {
+        height: 25vh;
+    }
+
+    .resultingTechnique3 img {
+        height: 40vh;
+    }
+
+    .contentSubArea4 .sequence img {
+        height: 25vh;
+    }
+
+    .resultingTechnique4 img {
+        height: 40vh;
+    }
+
+    .contentSubArea5 .sequence img {
+        height: 25vh;
+    }
+
+    .resultingTechnique5 img {
+        height: 40vh;
+    }
+
+    .contentSubArea6 .sequence img {
+        height: 25vh;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .contentSubArea1 video {
+        width: 23rem;
+    }
+
+    .resultingTechnique1 img {
+        height: 35vh;
+    }
+
+    .contentSubArea2 .sequence p {
+        margin-left: 6.5rem;
+        margin-right: 6.5rem;
+    }
+
+    .resultingTechnique2 img {
+        height: 35vh;
+    }
+
+    .contentSubArea3 .sequence p {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .resultingTechnique3 img {
+        height: 35vh;
+    }
+
+    .contentSubArea4 .sequence p {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .resultingTechnique4 img {
+        height: 35vh;
+    }
+
+    .contentSubArea5 .sequence p {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .resultingTechnique5 img {
+        height: 35vh;
+    }
+
+    .contentSubArea6 .sequence p {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .video-js {
+        width: 310px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .resultingTechnique1 img {
+        height: 30vh;
+    }
+
+    .video1 {
+        padding-left: 2rem;
+    }
+
+    .contentSubArea2 .sequence img {
+        height: 20vh;
+    }
+
+    .resultingTechnique2 img {
+        height: 30vh;
+    }
+
+    .contentSubArea3 .sequence img {
+        height: 20vh;
+    }
+
+    .resultingTechnique3 img {
+        height: 30vh;
+    }
+
+    .contentSubArea4 .sequence img {
+        height: 20vh;
+    }
+
+    .resultingTechnique4 img {
+        height: 30vh;
+    }
+
+    .contentSubArea5 .sequence img {
+        height: 20vh;
+    }
+
+    .resultingTechnique5 img {
+        height: 30vh;
+    }
+
+    .contentSubArea6 .sequence img {
+        height: 20vh;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .contentSubArea1 video {
+        width: 22rem;
+    }
+
+    .stretchesList {
+        margin-left: 7rem;
+    }
+
+    .bulletPoints {
+        text-align: start;
+    }
+
+    .bulletPoint1 h3 {
+        padding-left: 0.5rem;
+    }
+
+    .bulletPoint2 h3 {
+        padding-left: 0.5rem;
+    }
+
+    .bulletPoint3 h3 {
+        padding-left: 0.5rem;
+    }
+
+    .bulletPoint4 h3 {
+        padding-left: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .contentSubArea1 video {
+        width: 20rem;
+    }
+
+    .video-js {
+        margin-left: 3rem;
+    }
+
+    .stretchesList {
+        margin-left: 5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .contentSubArea1 h2{
+        margin-left: 6rem;
+    }
+
+    .resultingTechnique1 img {
+        height: 25vh;
+    }
+
+    .resultingTechnique2 img {
+        height: 25vh;
+    }
+
+    .resultingTechnique3 img {
+        height: 25vh;
+    }
+
+    .resultingTechnique4 img {
+        height: 25vh;
+    }
+
+    .resultingTechnique5 img {
+        height: 25vh;
+    }
+
+    .video-js {
+        margin-left: 2rem;
+    }
+}

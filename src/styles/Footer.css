@@ -1,0 +1,62 @@
+.footer {
+  color: white;
+  background-color: #101010;
+}
+
+.footer svg {
+  font-size: 30px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.email svg {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.email a {
+  color: white;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.contact svg {
+  padding-right: 10px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location svg {
+  padding-right: 2px;
+}
+
+@media only screen and (min-width: 750px) {
+  .contactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 10px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .location {
+    position: relative;
+    bottom: 8px;
+  }
+}
